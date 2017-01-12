@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_height="fill_parent" style="@style/MMScroll">
+        <LinearLayout android:paddingLeft="0.0dip" android:paddingTop="10.0dip" android:paddingRight="0.0dip" style="@style/MMBody">
+            <TextView android:id="@id/qq_sync_update_data" android:background="@drawable/chatfrom_bg" android:layout_width="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:minHeight="@dimen/ChattingContentMinHeight" style="@style/ChattingUIText" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/qq_sync_upload" android:background="@drawable/preference_one_item" android:layout_width="fill_parent" android:layout_height="70.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/qqsync_backup" />
+                <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:text="@string/qq_sync_upload" style="@style/MMFontTitleInList" />
+                    <TextView android:text="@string/qq_sync_upload_hint" style="@style/MMFontTipInList" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/qq_sync_download" android:background="@drawable/preference_one_item" android:layout_width="fill_parent" android:layout_height="70.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/qqsync_restore" />
+                <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:text="@string/qq_sync_download" style="@style/MMFontTitleInList" />
+                    <TextView android:text="@string/qq_sync_download_hint" style="@style/MMFontTipInList" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:id="@id/qq_sync_bind_uin" android:layout_width="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" style="@style/MMFontTipInList" />
+            <TextView android:id="@id/qq_sync_local_phone_count" android:layout_width="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" style="@style/MMFontTipInList" />
+            <TextView android:id="@id/qq_sync_remote_phone_count" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" style="@style/MMFontTipInList" />
+            <View android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_weight="100.0" />
+            <TextView android:id="@id/qq_sync_intro" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/qq_sync_intro" style="@style/RegUIHyperText" />
+            <TextView android:id="@id/qq_sync_statement" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:text="@string/qq_sync_pwd_safe_tip" style="@style/RegUIHyperText" />
+            <TextView android:textSize="@dimen/SmallerTextSize" android:id="@id/qq_sync_statement" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:text="@string/qq_sync_bottom" style="@style/MMFontTipInList" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

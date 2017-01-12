@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <EditText android:id="@id/regbymailreg_mail_et" android:hint="@string/regbymail_reg_addr_hint" android:inputType="textEmailAddress" style="@style/MMLineEditText" />
+            <View style="@style/MMSplit" />
+            <EditText android:id="@id/regbymailreg_account_et" android:hint="@string/reg_reg_account_hint" style="@style/MMLineEditText" />
+            <View style="@style/MMSplit" />
+            <EditText android:id="@id/regbymailreg_pass_et" android:hint="@string/regbymail_reg_password_hint" style="@style/MMLineEditPass" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

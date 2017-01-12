@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--微信 通讯录 找朋友 设置  底部选项卡-->
+<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" >
+        	<TextView
+		        android:id="@+id/txt1"   
+		        android:layout_width="fill_parent"   
+		        android:layout_height="fill_parent"  
+		        android:text="Button 1"  
+		        android:textSize="36sp"  
+		        android:textColor="#4a9ad8"/>
+	        <TextView
+		        android:id="@+id/txt2"   
+		        android:layout_width="fill_parent"   
+		        android:layout_height="fill_parent"  
+		        android:text="Button 2"  
+		        android:textSize="36sp"  
+		        android:textColor="#4a9ad8"/>
+		    <TextView
+		        android:id="@+id/txt3"   
+		        android:layout_width="fill_parent"   
+		        android:layout_height="fill_parent"  
+		        android:text="Button 3"  
+		        android:textSize="36sp"  
+		        android:textColor="#4a9ad8"/>
+		    <TextView
+		        android:id="@+id/txt4"   
+		        android:layout_width="fill_parent"   
+		        android:layout_height="fill_parent"  
+		        android:text="Button 4"  
+		        android:textSize="36sp"  
+		        android:textColor="#4a9ad8"/>
+        </FrameLayout>
+        <TabWidget android:id="@android:id/tabs"  android:background="@drawable/mmfooter_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+    </LinearLayout>
+</TabHost>
+

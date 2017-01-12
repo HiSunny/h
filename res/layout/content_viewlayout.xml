@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<RelativeLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:gravity="center_vertical">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="120dip"
+			android:textSize="20sp"
+			android:text="微信"/>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="200dip"
+			android:text="好友"
+			android:textSize="20sp"
+			android:textColor="#FFDEAD"
+			android:background="@null"/>
+	</RelativeLayout>
+</LinearLayout>

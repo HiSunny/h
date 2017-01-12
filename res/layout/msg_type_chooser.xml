@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/linearLayout1" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/msg_type_chooser" android:background="@drawable/msg_type_selector_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <Button android:id="@id/mode_voice_btn" android:background="@drawable/toolbar_left_bg" android:button="@null" android:text="@string/app_field_voice" android:drawableTop="@drawable/voice_mode_btn_bg" android:layout_weight="1.0" style="@style/MMToolbarButton" />
+            <Button android:id="@id/mode_msg_btn" android:background="@drawable/toolbar_right_bg" android:button="@null" android:text="@string/app_field_text" android:drawableTop="@drawable/msg_mode_btn_bg" android:layout_weight="1.0" style="@style/MMToolbarButton" />
+            <Button android:id="@id/smiley_btn" android:background="@drawable/toolbar_middle_bg" android:text="@string/app_field_smiley" android:drawableTop="@drawable/smiley_btn" android:layout_weight="1.0" style="@style/MMToolbarButton" />
+            <Button android:id="@id/add_camera_btn" android:background="@drawable/toolbar_left_bg" android:text="@string/app_field_pic" android:drawableTop="@drawable/camera_btn_bg" android:layout_weight="1.0" style="@style/MMToolbarButton" />
+            <Button android:id="@id/add_video_btn" android:background="@drawable/toolbar_right_bg" android:text="@string/app_field_video" android:drawableTop="@drawable/video_mode_btn" android:layout_weight="1.0" style="@style/MMToolbarButton" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- ScrollView可以实现单行EditText输入超长文本 -->
+    <ScrollView android:scrollbars="none" style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <TextView android:text="@string/nearby_friend_say_hi_hint" style="@style/MMLineLabel" />
+            <EditText android:id="@id/say_hi_content" android:maxLength="10" style="@style/MMLineEditText" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

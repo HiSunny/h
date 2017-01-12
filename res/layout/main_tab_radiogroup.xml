@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--微信 通讯录 找朋友 设置  底部选项卡-->
+<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TabWidget android:id="@android:id/tabs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+        <RadioGroup android:gravity="bottom" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/main_tab_group" android:background="@drawable/mmfooter_bg" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/main_tab_weixin" android:checked="true" android:text="@string/main_title" android:drawableTop="@drawable/tab_weixin" style="@style/MMTabButton" />
+            <RadioButton android:id="@id/main_tab_address" android:text="@string/main_contact" android:drawableTop="@drawable/tab_address" style="@style/MMTabButton" />
+            <RadioButton android:id="@id/main_tab_find_friend" android:text="@string/main_addcontact" android:drawableTop="@drawable/tab_find_frd" style="@style/MMTabButton" />
+            <RadioButton android:id="@id/main_tab_settings" android:text="@string/main_setting" android:drawableTop="@drawable/tab_settings" style="@style/MMTabButton" />     
+        </RadioGroup>
+    </LinearLayout>
+</TabHost>

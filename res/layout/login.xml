@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/MMBody">
+    	<!--EditText android:hint属性： Text为空时显示的文字提示信息 -->
+        <EditText android:id="@id/login_account_auto" android:hint="@string/login_account_hint" style="@style/MMLineEditText" />
+        <View style="@style/MMLabelSplit" />
+        <EditText android:id="@id/login_password_et" android:hint="@string/login_password_hint" style="@style/MMLineEditPass" />
+        <View style="@style/MMLabelSplit" />
+        <Button android:layout_gravity="right" android:id="@id/login_foget_btn" android:text="@string/login_foget_password" style="@style/RegUIHyperText" />
+    </LinearLayout>
+</LinearLayout>

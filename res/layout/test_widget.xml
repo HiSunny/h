@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<RadioButton android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text="单选框" 
+		android:background="@drawable/tab_bg"
+		android:layout_marginLeft="0.70000005dip" 
+		android:layout_marginRight="0.70000005dip"
+		android:drawableTop="@drawable/tab_weixin"
+		android:checked="false" 
+		android:button="@null"/>
+</LinearLayout>
